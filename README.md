@@ -1,4 +1,4 @@
-## Support (we have stopped updating - we are preparing for a new project)
+## Since AZ-Team has stopped developing this converter, we will continue to develop it from AZ-Team and will continue to update and fix various bugs that occur.
 
 https://discord.gg/uRNPQhkENk
 
@@ -150,3 +150,5 @@ If you install spritesheet-js globally, but the script fails due to missing the 
 ```sh
 echo "export PATH=$PATH:$(npm config --global get prefix)/bin" >> ~/.bashrc && source ~/.bashrc
 ```
+
+credit by : Kas-tle and AZ-Team
