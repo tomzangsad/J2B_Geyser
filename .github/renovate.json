@@ -1,0 +1,7 @@
+{
+    $schema httpsdocs.renovatebot.comrenovate-schema.json,
+    extends [
+      configrecommended,
+      disableDependencyDashboard
+    ]
+}
