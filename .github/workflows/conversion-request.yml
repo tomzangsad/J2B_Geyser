@@ -102,7 +102,7 @@ jobs:
           yarn global add spritesheet-js
           sudo apt-get install -y imagemagick
           sudo apt-get update
-          sudo apt-get install -y jq
+          sudo apt-get install -y jq || (echo "Fallback to binary download" && curl -Lo jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 && chmod +x jq && sudo mv jq /usr/local/bin/)
           pip install Pillow
           pip install requests
           pip install jproperties
